@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		309900BC1576378500789708 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309900BB1576378500789708 /* UIKit.framework */; };
+		309900BE1576378500789708 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309900BD1576378500789708 /* Foundation.framework */; };
+		309900C01576378500789708 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309900BF1576378500789708 /* CoreGraphics.framework */; };
+		309900C61576378500789708 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 309900C41576378500789708 /* InfoPlist.strings */; };
+		309900C81576378500789708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309900C71576378500789708 /* main.m */; };
+		309900CC1576378500789708 /* ODAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 309900CB1576378500789708 /* ODAppDelegate.m */; };
+		309900CF1576378500789708 /* ODViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 309900CE1576378500789708 /* ODViewController.m */; };
+		309900D21576378500789708 /* ODViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309900D01576378500789708 /* ODViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		309900B71576378500789708 /* ODPlaningPoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODPlaningPoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		309900BB1576378500789708 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		309900BD1576378500789708 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		309900BF1576378500789708 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		309900C31576378500789708 /* ODPlaningPoker-Info.plist */ = {isa = PBXFileReference; path = "ODPlaningPoker-Info.plist"; sourceTree = "<group>"; };
+		309900C51576378500789708 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		309900C71576378500789708 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		309900C91576378500789708 /* ODPlaningPoker-Prefix.pch */ = {isa = PBXFileReference; path = "ODPlaningPoker-Prefix.pch"; sourceTree = "<group>"; };
+		309900CA1576378500789708 /* ODAppDelegate.h */ = {isa = PBXFileReference; path = ODAppDelegate.h; sourceTree = "<group>"; };
+		309900CB1576378500789708 /* ODAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODAppDelegate.m; sourceTree = "<group>"; };
+		309900CD1576378500789708 /* ODViewController.h */ = {isa = PBXFileReference; path = ODViewController.h; sourceTree = "<group>"; };
+		309900CE1576378500789708 /* ODViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODViewController.m; sourceTree = "<group>"; };
+		309900D11576378500789708 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ODViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		309900B41576378500789708 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309900BC1576378500789708 /* UIKit.framework in Frameworks */,
+				309900BE1576378500789708 /* Foundation.framework in Frameworks */,
+				309900C01576378500789708 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309900AC1576378500789708 = {
+			isa = PBXGroup;
+			children = (
+				309900C11576378500789708 /* ODPlaningPoker */,
+				309900BA1576378500789708 /* Frameworks */,
+				309900B81576378500789708 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		309900B81576378500789708 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				309900B71576378500789708 /* ODPlaningPoker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		309900BA1576378500789708 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				309900BB1576378500789708 /* UIKit.framework */,
+				309900BD1576378500789708 /* Foundation.framework */,
+				309900BF1576378500789708 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		309900C11576378500789708 /* ODPlaningPoker */ = {
+			isa = PBXGroup;
+			children = (
+				309900CA1576378500789708 /* ODAppDelegate.h */,
+				309900CB1576378500789708 /* ODAppDelegate.m */,
+				309900CD1576378500789708 /* ODViewController.h */,
+				309900CE1576378500789708 /* ODViewController.m */,
+				309900D01576378500789708 /* ODViewController.xib */,
+				309900C21576378500789708 /* Supporting Files */,
+			);
+			path = ODPlaningPoker;
+			sourceTree = "<group>";
+		};
+		309900C21576378500789708 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				309900C31576378500789708 /* ODPlaningPoker-Info.plist */,
+				309900C41576378500789708 /* InfoPlist.strings */,
+				309900C71576378500789708 /* main.m */,
+				309900C91576378500789708 /* ODPlaningPoker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		309900B61576378500789708 /* ODPlaningPoker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309900D51576378500789708 /* Build configuration list for PBXNativeTarget "ODPlaningPoker" */;
+			buildPhases = (
+				309900B31576378500789708 /* Sources */,
+				309900B41576378500789708 /* Frameworks */,
+				309900B51576378500789708 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODPlaningPoker;
+			productName = ODPlaningPoker;
+			productReference = 309900B71576378500789708 /* ODPlaningPoker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		309900AE1576378500789708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OD;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "joinstick.net@gmail.com";
+			};
+			buildConfigurationList = 309900B11576378500789708 /* Build configuration list for PBXProject "ODPlaningPoker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 309900AC1576378500789708;
+			productRefGroup = 309900B81576378500789708 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				309900B61576378500789708 /* ODPlaningPoker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		309900B51576378500789708 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309900C61576378500789708 /* InfoPlist.strings in Resources */,
+				309900D21576378500789708 /* ODViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		309900B31576378500789708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309900C81576378500789708 /* main.m in Sources */,
+				309900CC1576378500789708 /* ODAppDelegate.m in Sources */,
+				309900CF1576378500789708 /* ODViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		309900C41576378500789708 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				309900C51576378500789708 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		309900D01576378500789708 /* ODViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				309900D11576378500789708 /* en */,
+			);
+			name = ODViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		309900D31576378500789708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		309900D41576378500789708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		309900D61576378500789708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ODPlaningPoker/ODPlaningPoker-Prefix.pch";
+				INFOPLIST_FILE = "ODPlaningPoker/ODPlaningPoker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		309900D71576378500789708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ODPlaningPoker/ODPlaningPoker-Prefix.pch";
+				INFOPLIST_FILE = "ODPlaningPoker/ODPlaningPoker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		309900B11576378500789708 /* Build configuration list for PBXProject "ODPlaningPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309900D31576378500789708 /* Debug */,
+				309900D41576378500789708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309900D51576378500789708 /* Build configuration list for PBXNativeTarget "ODPlaningPoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309900D61576378500789708 /* Debug */,
+				309900D71576378500789708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 309900AE1576378500789708 /* Project object */;
+}
