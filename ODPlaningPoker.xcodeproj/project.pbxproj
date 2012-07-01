@@ -15,6 +15,36 @@
 		309900CC1576378500789708 /* ODAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 309900CB1576378500789708 /* ODAppDelegate.m */; };
 		309900CF1576378500789708 /* ODViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 309900CE1576378500789708 /* ODViewController.m */; };
 		309900D21576378500789708 /* ODViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309900D01576378500789708 /* ODViewController.xib */; };
+		309900F41576379800789708 /* bigcard--.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900D91576379800789708 /* bigcard--.png */; };
+		309900F51576379800789708 /* bigcard-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900DA1576379800789708 /* bigcard-0.png */; };
+		309900F61576379800789708 /* bigcard-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900DB1576379800789708 /* bigcard-1.png */; };
+		309900F71576379800789708 /* bigcard-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900DC1576379800789708 /* bigcard-13.png */; };
+		309900F81576379800789708 /* bigcard-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900DD1576379800789708 /* bigcard-3.png */; };
+		309900F91576379800789708 /* bigcard-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900DE1576379800789708 /* bigcard-5.png */; };
+		309900FA1576379800789708 /* bigcard-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900DF1576379800789708 /* bigcard-8.png */; };
+		309900FB1576379800789708 /* bigcard-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900E01576379800789708 /* bigcard-big.png */; };
+		309900FC1576379800789708 /* card-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900E11576379800789708 /* card-0.png */; };
+		309900FD1576379800789708 /* card-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900E21576379800789708 /* card-1.png */; };
+		309900FE1576379800789708 /* card-13.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900E31576379800789708 /* card-13.png */; };
+		309900FF1576379800789708 /* card-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900E41576379800789708 /* card-2.png */; };
+		309901001576379800789708 /* card-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900E51576379800789708 /* card-3.png */; };
+		309901011576379800789708 /* card-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900E61576379800789708 /* card-5.png */; };
+		309901021576379800789708 /* card-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900E71576379800789708 /* card-8.png */; };
+		309901031576379800789708 /* card-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900E81576379800789708 /* card-big.png */; };
+		309901041576379800789708 /* card-unknow.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900E91576379800789708 /* card-unknow.png */; };
+		309901051576379800789708 /* crad-behide_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 309900EA1576379800789708 /* crad-behide_01.jpg */; };
+		309901061576379800789708 /* crad-behide_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 309900EB1576379800789708 /* crad-behide_02.jpg */; };
+		309901071576379800789708 /* crad-behide_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900EC1576379800789708 /* crad-behide_03.png */; };
+		309901081576379800789708 /* crad-behide_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 309900ED1576379800789708 /* crad-behide_04.jpg */; };
+		309901091576379800789708 /* crad-behide_05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 309900EE1576379800789708 /* crad-behide_05.jpg */; };
+		3099010A1576379800789708 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900EF1576379800789708 /* Default.png */; };
+		3099010B1576379800789708 /* front-2_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 309900F01576379800789708 /* front-2_03.jpg */; };
+		3099010C1576379800789708 /* front-3_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900F11576379800789708 /* front-3_03.png */; };
+		3099010D1576379800789708 /* od_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900F21576379800789708 /* od_03.png */; };
+		3099010E1576379800789708 /* od_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 309900F31576379800789708 /* od_06.png */; };
+		30A6109D15766EE700B351F4 /* infoScrum.png in Resources */ = {isa = PBXBuildFile; fileRef = 30A6109C15766EE700B351F4 /* infoScrum.png */; };
+		30A610A015766F1700B351F4 /* ODInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A6109F15766F1600B351F4 /* ODInfoViewController.m */; };
+		30A610A2157676DD00B351F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A610A1157676DD00B351F4 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +52,46 @@
 		309900BB1576378500789708 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		309900BD1576378500789708 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		309900BF1576378500789708 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		309900C31576378500789708 /* ODPlaningPoker-Info.plist */ = {isa = PBXFileReference; path = "ODPlaningPoker-Info.plist"; sourceTree = "<group>"; };
+		309900C31576378500789708 /* ODPlaningPoker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ODPlaningPoker-Info.plist"; sourceTree = "<group>"; };
 		309900C51576378500789708 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		309900C71576378500789708 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		309900C91576378500789708 /* ODPlaningPoker-Prefix.pch */ = {isa = PBXFileReference; path = "ODPlaningPoker-Prefix.pch"; sourceTree = "<group>"; };
-		309900CA1576378500789708 /* ODAppDelegate.h */ = {isa = PBXFileReference; path = ODAppDelegate.h; sourceTree = "<group>"; };
+		309900C91576378500789708 /* ODPlaningPoker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ODPlaningPoker-Prefix.pch"; sourceTree = "<group>"; };
+		309900CA1576378500789708 /* ODAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODAppDelegate.h; sourceTree = "<group>"; };
 		309900CB1576378500789708 /* ODAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODAppDelegate.m; sourceTree = "<group>"; };
-		309900CD1576378500789708 /* ODViewController.h */ = {isa = PBXFileReference; path = ODViewController.h; sourceTree = "<group>"; };
+		309900CD1576378500789708 /* ODViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODViewController.h; sourceTree = "<group>"; };
 		309900CE1576378500789708 /* ODViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ODViewController.m; sourceTree = "<group>"; };
 		309900D11576378500789708 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ODViewController.xib; sourceTree = "<group>"; };
+		309900D91576379800789708 /* bigcard--.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard--.png"; sourceTree = "<group>"; };
+		309900DA1576379800789708 /* bigcard-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard-0.png"; sourceTree = "<group>"; };
+		309900DB1576379800789708 /* bigcard-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard-1.png"; sourceTree = "<group>"; };
+		309900DC1576379800789708 /* bigcard-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard-13.png"; sourceTree = "<group>"; };
+		309900DD1576379800789708 /* bigcard-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard-3.png"; sourceTree = "<group>"; };
+		309900DE1576379800789708 /* bigcard-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard-5.png"; sourceTree = "<group>"; };
+		309900DF1576379800789708 /* bigcard-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard-8.png"; sourceTree = "<group>"; };
+		309900E01576379800789708 /* bigcard-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigcard-big.png"; sourceTree = "<group>"; };
+		309900E11576379800789708 /* card-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-0.png"; sourceTree = "<group>"; };
+		309900E21576379800789708 /* card-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-1.png"; sourceTree = "<group>"; };
+		309900E31576379800789708 /* card-13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-13.png"; sourceTree = "<group>"; };
+		309900E41576379800789708 /* card-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-2.png"; sourceTree = "<group>"; };
+		309900E51576379800789708 /* card-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-3.png"; sourceTree = "<group>"; };
+		309900E61576379800789708 /* card-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-5.png"; sourceTree = "<group>"; };
+		309900E71576379800789708 /* card-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-8.png"; sourceTree = "<group>"; };
+		309900E81576379800789708 /* card-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-big.png"; sourceTree = "<group>"; };
+		309900E91576379800789708 /* card-unknow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-unknow.png"; sourceTree = "<group>"; };
+		309900EA1576379800789708 /* crad-behide_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crad-behide_01.jpg"; sourceTree = "<group>"; };
+		309900EB1576379800789708 /* crad-behide_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crad-behide_02.jpg"; sourceTree = "<group>"; };
+		309900EC1576379800789708 /* crad-behide_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "crad-behide_03.png"; sourceTree = "<group>"; };
+		309900ED1576379800789708 /* crad-behide_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crad-behide_04.jpg"; sourceTree = "<group>"; };
+		309900EE1576379800789708 /* crad-behide_05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crad-behide_05.jpg"; sourceTree = "<group>"; };
+		309900EF1576379800789708 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		309900F01576379800789708 /* front-2_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "front-2_03.jpg"; sourceTree = "<group>"; };
+		309900F11576379800789708 /* front-3_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "front-3_03.png"; sourceTree = "<group>"; };
+		309900F21576379800789708 /* od_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = od_03.png; sourceTree = "<group>"; };
+		309900F31576379800789708 /* od_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = od_06.png; sourceTree = "<group>"; };
+		30A6109C15766EE700B351F4 /* infoScrum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoScrum.png; sourceTree = "<group>"; };
+		30A6109E15766F1600B351F4 /* ODInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODInfoViewController.h; sourceTree = "<group>"; };
+		30A6109F15766F1600B351F4 /* ODInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODInfoViewController.m; sourceTree = "<group>"; };
+		30A610A1157676DD00B351F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A610A2157676DD00B351F4 /* QuartzCore.framework in Frameworks */,
 				309900BC1576378500789708 /* UIKit.framework in Frameworks */,
 				309900BE1576378500789708 /* Foundation.framework in Frameworks */,
 				309900C01576378500789708 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +129,7 @@
 		309900BA1576378500789708 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				30A610A1157676DD00B351F4 /* QuartzCore.framework */,
 				309900BB1576378500789708 /* UIKit.framework */,
 				309900BD1576378500789708 /* Foundation.framework */,
 				309900BF1576378500789708 /* CoreGraphics.framework */,
@@ -81,6 +144,8 @@
 				309900CB1576378500789708 /* ODAppDelegate.m */,
 				309900CD1576378500789708 /* ODViewController.h */,
 				309900CE1576378500789708 /* ODViewController.m */,
+				30A6109E15766F1600B351F4 /* ODInfoViewController.h */,
+				30A6109F15766F1600B351F4 /* ODInfoViewController.m */,
 				309900D01576378500789708 /* ODViewController.xib */,
 				309900C21576378500789708 /* Supporting Files */,
 			);
@@ -90,12 +155,48 @@
 		309900C21576378500789708 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				30A6109C15766EE700B351F4 /* infoScrum.png */,
+				309900D81576379800789708 /* images */,
 				309900C31576378500789708 /* ODPlaningPoker-Info.plist */,
 				309900C41576378500789708 /* InfoPlist.strings */,
 				309900C71576378500789708 /* main.m */,
 				309900C91576378500789708 /* ODPlaningPoker-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		309900D81576379800789708 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				309900D91576379800789708 /* bigcard--.png */,
+				309900DA1576379800789708 /* bigcard-0.png */,
+				309900DB1576379800789708 /* bigcard-1.png */,
+				309900DC1576379800789708 /* bigcard-13.png */,
+				309900DD1576379800789708 /* bigcard-3.png */,
+				309900DE1576379800789708 /* bigcard-5.png */,
+				309900DF1576379800789708 /* bigcard-8.png */,
+				309900E01576379800789708 /* bigcard-big.png */,
+				309900E11576379800789708 /* card-0.png */,
+				309900E21576379800789708 /* card-1.png */,
+				309900E31576379800789708 /* card-13.png */,
+				309900E41576379800789708 /* card-2.png */,
+				309900E51576379800789708 /* card-3.png */,
+				309900E61576379800789708 /* card-5.png */,
+				309900E71576379800789708 /* card-8.png */,
+				309900E81576379800789708 /* card-big.png */,
+				309900E91576379800789708 /* card-unknow.png */,
+				309900EA1576379800789708 /* crad-behide_01.jpg */,
+				309900EB1576379800789708 /* crad-behide_02.jpg */,
+				309900EC1576379800789708 /* crad-behide_03.png */,
+				309900ED1576379800789708 /* crad-behide_04.jpg */,
+				309900EE1576379800789708 /* crad-behide_05.jpg */,
+				309900EF1576379800789708 /* Default.png */,
+				309900F01576379800789708 /* front-2_03.jpg */,
+				309900F11576379800789708 /* front-3_03.png */,
+				309900F21576379800789708 /* od_03.png */,
+				309900F31576379800789708 /* od_06.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +253,34 @@
 			files = (
 				309900C61576378500789708 /* InfoPlist.strings in Resources */,
 				309900D21576378500789708 /* ODViewController.xib in Resources */,
+				309900F41576379800789708 /* bigcard--.png in Resources */,
+				309900F51576379800789708 /* bigcard-0.png in Resources */,
+				309900F61576379800789708 /* bigcard-1.png in Resources */,
+				309900F71576379800789708 /* bigcard-13.png in Resources */,
+				309900F81576379800789708 /* bigcard-3.png in Resources */,
+				309900F91576379800789708 /* bigcard-5.png in Resources */,
+				309900FA1576379800789708 /* bigcard-8.png in Resources */,
+				309900FB1576379800789708 /* bigcard-big.png in Resources */,
+				309900FC1576379800789708 /* card-0.png in Resources */,
+				309900FD1576379800789708 /* card-1.png in Resources */,
+				309900FE1576379800789708 /* card-13.png in Resources */,
+				309900FF1576379800789708 /* card-2.png in Resources */,
+				309901001576379800789708 /* card-3.png in Resources */,
+				309901011576379800789708 /* card-5.png in Resources */,
+				309901021576379800789708 /* card-8.png in Resources */,
+				309901031576379800789708 /* card-big.png in Resources */,
+				309901041576379800789708 /* card-unknow.png in Resources */,
+				309901051576379800789708 /* crad-behide_01.jpg in Resources */,
+				309901061576379800789708 /* crad-behide_02.jpg in Resources */,
+				309901071576379800789708 /* crad-behide_03.png in Resources */,
+				309901081576379800789708 /* crad-behide_04.jpg in Resources */,
+				309901091576379800789708 /* crad-behide_05.jpg in Resources */,
+				3099010A1576379800789708 /* Default.png in Resources */,
+				3099010B1576379800789708 /* front-2_03.jpg in Resources */,
+				3099010C1576379800789708 /* front-3_03.png in Resources */,
+				3099010D1576379800789708 /* od_03.png in Resources */,
+				3099010E1576379800789708 /* od_06.png in Resources */,
+				30A6109D15766EE700B351F4 /* infoScrum.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +294,7 @@
 				309900C81576378500789708 /* main.m in Sources */,
 				309900CC1576378500789708 /* ODAppDelegate.m in Sources */,
 				309900CF1576378500789708 /* ODViewController.m in Sources */,
+				30A610A015766F1700B351F4 /* ODInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +406,7 @@
 				309900D71576378500789708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
